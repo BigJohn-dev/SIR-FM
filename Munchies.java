@@ -1,15 +1,17 @@
 public class Munchies {
 
 //number 1
-	/**public static int findMultiple(int number) {
+	public static int findMultiple(int number) {
 	int result = number * 5;
 	return result;
-}**/
+}
 
 // number 2
-	//public static int 
+	//public static int displayPrimeNumbers(int number) {
+	
+}
 // number 3
-	/**public static String dispalyAge(int ageYears) {
+	public static String dispalyAge(int ageYears) {
 	double month = ageYears * 12;
 	return "Your age " + ageYears + " in month is " + month;
 
@@ -22,13 +24,13 @@ public class Munchies {
 	double seconds = minutes * 86400;
 	return "Your age " + ageYears + " in seconds is " + seconds;
 
-}**/
+}
 
 // number 4
-	
+		
 
 // number 5
-	/**public static String findMultiplesOf7Not5(int number) {
+	public static String findMultiplesOf7Not5(int number) {
 	if (number < 2000 || number > 3200) {
 	return "invalid input..";
 
@@ -39,10 +41,10 @@ public class Munchies {
 	return "number is divisible by 7 but not a multiple of 5";
 }
 	return " ";
-}**/
+}
 
 // number 6
-	/**public static int computeSumOfNumber(int number) {
+	public static int computeSumOfNumber(int number) {
 	int num1 = (number / 1000) % 10;
 	int num2 = (number / 100) % 10;
 	int num3 = (number / 10) % 10;
@@ -50,16 +52,16 @@ public class Munchies {
 
 	int total = num1 + num2 + num3 + num4;
 	return total;
-}**/
+}
 
 // number 7
-	/**public static boolean isLeapYear(int year) {
+	public static boolean isLeapYear(int year) {
 	
 	if (year % 4 == 0){
 	return true;
 }
 	return false;
-}**/
+}
 
 
 
