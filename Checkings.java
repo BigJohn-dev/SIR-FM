@@ -11,11 +11,13 @@ public class Checkings {
 	//System.out.println(Munchies.findMultiple(Years));
 
 
+	//System.out.println(Munchies.displayPrimeNumbers(Years));
+
 
 	//System.out.println(Munchies.dispalyAge(Years));
 
 
-
+	//System.out.println(Munchies.displayDogAge(Years));
 
 
 	//System.out.println(Munchies.findMultiplesOf7Not5(Years));

@@ -7,27 +7,26 @@ public class Munchies {
 }
 
 // number 2
-	//public static int displayPrimeNumbers(int number) {
+	public static int displayPrimeNumbers(int number) {
 	
 }
 // number 3
 	public static String dispalyAge(int ageYears) {
 	double month = ageYears * 12;
-	return "Your age " + ageYears + " in month is " + month;
-
-	double days = month * 365.25;
-	return "Your age " + ageYears + " in days is " + days;
- 
+ 	double days = month * 365.25;
 	double minutes = days * 1440;
-	return "Your age " + ageYears + " in minutes is " + minutes;
+	double seconds = minutes * 60;
 
-	double seconds = minutes * 86400;
-	return "Your age " + ageYears + " in seconds is " + seconds;
+	return 
+	"Your age " + ageYears + " in month is " + month + " in days is " + days + " in minutes is " + minutes + " in seconds is " + seconds;
 
 }
 
 // number 4
-		
+	public static String displayDogAge(String name, int humanYears){
+	int dog  = humanYears * 7;
+	return name + " is "+ dog + "years old ";
+}	
 
 // number 5
 	public static String findMultiplesOf7Not5(int number) {
